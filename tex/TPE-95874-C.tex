@@ -709,7 +709,7 @@ ejercicio anterior y graficamos: \\
 \prompt{In}{incolor}{19}{\hspace{4pt}}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plt}\PY{o}{.}\PY{n}{figure}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{8}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{)}\PY{p}{)}
-\PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{-T_{rg}/2}\PY{p}{,} \PY{n}{T_{rg}/2}\PY{p}{,} \PY{n}{chirp\PYZus{}autocorr}\PY{o}{.}\PY{n}{size}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{abs}\PY{p}{(}\PY{n}{chirp\PYZus{}autocorr}\PY{p}{)}\PY{p}{)}
+\PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{-T_{rg}}\PY{p}{,} \PY{n}{T_{rg}}\PY{p}{,} \PY{n}{chirp\PYZus{}autocorr}\PY{o}{.}\PY{n}{size}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{abs}\PY{p}{(}\PY{n}{chirp\PYZus{}autocorr}\PY{p}{)}\PY{p}{)}
 \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Autocorrelación del \PYZdl{}chirp\PYZdl{}}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZdl{}t\PYZdl{} [\PYZdl{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{mu\PYZdl{}s]}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
 \end{Verbatim}
@@ -743,7 +743,7 @@ cuenta nos aseguramos de que el resultado salga como queremos agregando
 \prompt{In}{incolor}{21}{\hspace{4pt}}
 \begin{Verbatim}[commandchars=\\\{\}]
 \PY{n}{plt}\PY{o}{.}\PY{n}{figure}\PY{p}{(}\PY{n}{figsize}\PY{o}{=}\PY{p}{(}\PY{l+m+mi}{8}\PY{p}{,}\PY{l+m+mi}{4}\PY{p}{)}\PY{p}{)}
-\PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{-T_{rg}/2}\PY{p}{,} \PY{n}{T_{rg}/2}\PY{p}{,} \PY{n}{chirp\PYZus{}autocorr\PYZus{}2}\PY{o}{.}\PY{n}{size}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{abs}\PY{p}{(}\PY{n}{chirp\PYZus{}autocorr\PYZus{}2}\PY{p}{)}\PY{p}{)}
+\PY{n}{plt}\PY{o}{.}\PY{n}{plot}\PY{p}{(}\PY{n}{np}\PY{o}{.}\PY{n}{linspace}\PY{p}{(}\PY{l+m+mi}{-T_{rg}}\PY{p}{,} \PY{n}{T_{rg}}\PY{p}{,} \PY{n}{chirp\PYZus{}autocorr\PYZus{}2}\PY{o}{.}\PY{n}{size}\PY{p}{)}\PY{p}{,} \PY{n}{np}\PY{o}{.}\PY{n}{abs}\PY{p}{(}\PY{n}{chirp\PYZus{}autocorr\PYZus{}2}\PY{p}{)}\PY{p}{)}
 \PY{c+c1}{\PYZsh{} plt.plot(np.abs(chirp\PYZus{}autocorr\PYZus{}2))}
 \PY{n}{plt}\PY{o}{.}\PY{n}{title}\PY{p}{(}\PY{l+s+s2}{\PYZdq{}}\PY{l+s+s2}{Autocorrelación del \PYZdl{}chirp\PYZdl{} (mediante T de F)}\PY{l+s+s2}{\PYZdq{}}\PY{p}{)}
 \PY{n}{plt}\PY{o}{.}\PY{n}{xlabel}\PY{p}{(}\PY{l+s+s1}{\PYZsq{}}\PY{l+s+s1}{\PYZdl{}t\PYZdl{} [\PYZdl{}}\PY{l+s+s1}{\PYZbs{}}\PY{l+s+s1}{mu\PYZdl{}s]}\PY{l+s+s1}{\PYZsq{}}\PY{p}{)}\PY{p}{;}
